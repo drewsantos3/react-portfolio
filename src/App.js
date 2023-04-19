@@ -4,10 +4,10 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Home from './components/Home';
 import { useState, useEffect } from "react";
-import { HashRouter as Router, Route, Routes, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, } from "react-router-dom";
 
 function App() {
-    const [darkMode, setDarkMode] = useState(false);
+    const darkMode = useState(false);
     
     useEffect(() => {
         if (darkMode) {
@@ -19,24 +19,17 @@ function App() {
     
     return (
         <Router>
-        <div className="App">
-            <Switch>
-            <Route exact path="/">
-                <Home darkMode={darkMode} setDarkMode={setDarkMode} />
-            </Route>
-            <Route path="/about">
-                <About darkMode={darkMode} setDarkMode={setDarkMode} />
-            </Route>
-            <Route path="/projects">
-                <Projects darkMode={darkMode} setDarkMode={setDarkMode} />
-            </Route>
-            <Route path="/contact">
-                <Contact darkMode={darkMode} setDarkMode={setDarkMode} />
-            </Route>
-            </Switch>
+        <div className="all dark">
+          {/* <button onClick={toggleTheme}>Toggle Theme</button> */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
         </div>
-        </Router>
+      </Router>
     );
-    }
+  }
 
 export default App;

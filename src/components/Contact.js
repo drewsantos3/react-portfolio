@@ -9,10 +9,10 @@ const Contact = () => {
         <div className="contact">
             <h1>Contact Me</h1>
             <p>
-            If you'd like to get in touch with me, please feel free to reach out to me via email at <a href="mailto: drewsantos3@gmail.com"></a> or by phone at <a href="tel: 312-521-9832">312-521-9832</a>
+            If you'd like to get in touch with me, please feel free to reach out to me via email at <a href="mailto: drewsantos3@gmail.com">drewsantos3@gmail.com</a> or by phone at <a href="tel: 312-521-9832">312-521-9832</a>
             </p>
             <p>
-            You can also find me on <a href="https://www.linkedin.com/in/drew-santos-3b0b3b1b3/" target="_blank" rel="noreferrer">LinkedIn</a>
+            You can also find me on <a href="https://www.linkedin.com/in/andrew-santos-5a1372247/" target="_blank" rel="noreferrer">LinkedIn</a>
             </p>
             <p>
             <Link to="/">Back to Home</Link>
@@ -22,3 +22,5 @@ const Contact = () => {
         </div>
     )
 }
+
+export default Contact;
