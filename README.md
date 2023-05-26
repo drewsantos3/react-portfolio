@@ -1,5 +1,10 @@
 # react-portfolio
-My coding portfolio built with react.js
+
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
 
 ## Description
 This is my coding portfolio built with react.js. It is a single page application that uses react-router-dom to navigate between pages. The portfolio is deployed on github pages.
@@ -15,6 +20,11 @@ To run the application locally, run the following command:
 ```
 npm start
 ```
+To view the deployed application, visit https://drewsantos.github.io/react-portfolio/
+
+## Screenshot
+
+![Screenshot of About Me page](./src/assets/images/about-me.png)
 
 ## License
 This project is licensed under the MIT license.
