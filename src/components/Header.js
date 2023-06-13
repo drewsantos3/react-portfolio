@@ -1,19 +1,13 @@
-import { Link } from 'react-router-dom';
+import React from "react";
+import Nav from "./Nav";
 
-const Header = () => {
-    return (
-        <header>
-            <h1>Andrew Santos</h1>
-            <nav>
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/projects">Projects</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                </ul>
-            </nav>
-        </header>
-    );
+function Header({ currentPage, handlePageChange }) {
+  return (
+    <div className="bg-black p-4">
+      <h2 className="m-6 text-6xl text-white font-bold">Andrew Santos</h2>
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+    </div>
+  );
 }
 
 export default Header;

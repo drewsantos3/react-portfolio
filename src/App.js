@@ -1,4 +1,5 @@
 import "./Normalize.css";
+import "./index.css";
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import About from './components/About';
