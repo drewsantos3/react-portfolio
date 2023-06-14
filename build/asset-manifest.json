@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.4a96ab0b.css",
+    "main.js": "/react-portfolio/static/js/main.511c547b.js",
+    "static/media/oceanBuddies.png": "/react-portfolio/static/media/oceanBuddies.0312907299d1ff1c76e9.png",
+    "static/media/me.PNG": "/react-portfolio/static/media/me.ba307d1e9e814dc3fd00.PNG",
+    "static/media/attakpage.png": "/react-portfolio/static/media/attakpage.8e2aeec53f67fdfbfbc5.png",
+    "static/media/bikes4U.png": "/react-portfolio/static/media/bikes4U.1705263a9024c4363cec.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.4a96ab0b.css.map": "/react-portfolio/static/css/main.4a96ab0b.css.map",
+    "main.511c547b.js.map": "/react-portfolio/static/js/main.511c547b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a96ab0b.css",
+    "static/js/main.511c547b.js"
+  ]
+}
