@@ -1,8 +1,8 @@
-import Header from "./Header";
-import Footer from "./Footer";
-import Attak from "../images/attakpage.png";
-import Bikes from "../images/bikes4U.png";
-import Ocean from "../images/oceanBuddies.png";
+import Header from "../Header";
+import Footer from "../Footer";
+import Attak from "../../assets/images/attakpage.png";
+import Bikes from "../../assets/images/bikes4U.png";
+import Ocean from "../../assets/images/oceanBuddies.png";
 
 const Projects = () => {
   return (

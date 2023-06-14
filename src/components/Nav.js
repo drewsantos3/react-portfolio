@@ -1,18 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function Nav({ currentPage, handlePageChange }) {
+function Nav() {
   return (
     <div>
-      <nav className="m-6 flex flex-row gap-6" currentPage={currentPage}>
-        <button className="px-5 text-xl text-white" onClick={() => handlePageChange("About")}>
+      <nav className="m-6 flex flex-row gap-6">
+        <Link to="/about" className="px-5 text-xl text-white">
           ABOUT ME
-        </button>
-        <button className="px-5 text-xl text-white" onClick={() => handlePageChange("Projects")}>
+        </Link>
+        <Link to="/projects" className="px-5 text-xl text-white">
           PROJECTS
-        </button>
-        <button className="px-5 text-xl text-white" onClick={() => handlePageChange("Contact")}>
+        </Link>
+        <Link to="/contact" className="px-5 text-xl text-white">
           CONTACT
-        </button>
+        </Link>
       </nav>
     </div>
   );

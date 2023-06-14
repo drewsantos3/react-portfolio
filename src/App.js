@@ -1,8 +1,8 @@
 import "./Normalize.css";
 import "./index.css";
-import Contact from './components/Contact';
-import Projects from './components/Projects';
-import About from './components/About';
+import Contact from './components/pages/Contact';
+import Projects from './components/pages/Projects';
+import About from './components/pages/About';
 import Home from './components/Home';
 import { useState, useEffect } from "react";
 import { HashRouter as Router, Route, Routes, } from "react-router-dom";

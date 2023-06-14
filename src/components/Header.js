@@ -3,8 +3,10 @@ import Nav from "./Nav";
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <div className="bg-black p-4">
-      <h2 className="m-6 text-6xl text-white font-bold">Andrew Santos</h2>
+    <div className="container bg-black p-4">
+      <div className="typed-wrapper">
+      <h1 className="typed">Andrew Santos - Full Stack Developer</h1>
+      </div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
     </div>
   );
