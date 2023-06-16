@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Nav() {
   return (
-    <div>
+    <div className="nav">
       <nav className="m-6 flex flex-row gap-6">
         <Link to="/about" className="px-5 text-xl text-white">
           ABOUT ME

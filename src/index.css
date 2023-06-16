@@ -4,6 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 
+:root {
+  --bg-color: white;
+  --typewriterSpeed: 2.2s;
+  --typewriterCharacters: 125;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -15,36 +21,64 @@ html {
   max-width: 100%;
 }
 
-.typed {
-  overflow: hidden;
+.header {
     white-space: nowrap;
-    border-right: 2px solid;
-    width: 0;
-    animation: typing 2.5s steps(30, end) forwards, blinking 1s infinite;
     color: white;
     font-family: Orbitron;
 }
 
-@keyframes typing {
-  from {
-      width: 0
-  }
+.nav {
+  font-family: Orbitron;
+}
 
+.type-writer {
+  position: relative;
+  width: max-content;
+}
+
+.type-writer::before,
+.type-writer::after {
+  content: "";
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.type-writer::before {
+  background: var(--bg-color);
+  animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards;
+}
+
+.type-writer::after {
+  width: 0.125em;
+  background: #032a5d;
+  animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards, blink 750ms steps(var(--typewriterCharacters)) infinite;
+}
+
+
+@keyframes typewriter {
   to {
-      width: 100%
+    left: 100%
   }
 }
 
-@keyframes blinking {
-  0% {
-      border-color: transparent
+@keyframes blink {
+  to {
+    background: transparent;
   }
+}
 
-  50% {
-      border-color: lawngreen
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
+}
 
-  100% {
-      border-color: transparent
+@media screen and (max-width: 863px) {
+  .type-writer::after {
+    opacity: 0;
   }
 }

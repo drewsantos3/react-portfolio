@@ -6,12 +6,15 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <main>
-                <h1>Andrew Santos</h1>
-                <p>Full Stack Web Developer</p>
+            <div className='relative'>
+                <p className="text-center font-bold text-5xl pt-10 px-10">
+                    Developer, Problem Solver, Tech Enthusiast
+                    <br></br>
+                    <span className="text-[#16a34a] type-writer">Welcome to my Portfolio!</span>
+                        </p>
                 <p>React, Node, Express, MongoDB</p>
                 <Link to="/about">About</Link>
-            </main>
+            </div>
             <Footer />
         </div>
     );
