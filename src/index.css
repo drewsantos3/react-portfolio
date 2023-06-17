@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron');
 
 :root {
-  --bg-color: white;
+  --bg-color: ;
   --typewriterSpeed: 2.2s;
   --typewriterCharacters: 125;
 }
@@ -27,34 +27,26 @@ html {
     font-family: Orbitron;
 }
 
+.home {
+  background-image: url(./assets/images/earth.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 30rem;
+}
+
 .nav {
   font-family: Orbitron;
+}
+
+.navlink:hover {
+  color: #16a34a;
 }
 
 .type-writer {
   position: relative;
   width: max-content;
-}
-
-.type-writer::before,
-.type-writer::after {
-  content: "";
-  position: absolute;
-  top:0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.type-writer::before {
-  background: var(--bg-color);
-  animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards;
-}
-
-.type-writer::after {
-  width: 0.125em;
-  background: #032a5d;
-  animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 1s forwards, blink 750ms steps(var(--typewriterCharacters)) infinite;
+  animation: typing 2.5s steps(30, end) forwards, blink 1s infinite;
+  width: auto;
 }
 
 
