@@ -1,5 +1,5 @@
 import React from 'react';
-import me from '../../assets/images/me.PNG';
+import me from '../../assets/images/me.png';
 import Footer from '../Footer';
 import Header from '../Header';
 
@@ -7,15 +7,33 @@ const About = () => {
     return (
         <div>
          <Header />
-        <section id="about" className='m-6'>
-        <div className="about">
-            <h1>About Me</h1>
-            <img src={me} alt="me" />
-            <p>
-            Welcome to my Portfolio! My name is Andrew Santos and I'm a 24 year old full-stack web developer specializing in react and javascript. I'm
-            passionate about problem solving and creating beautiful and functional websites and
-            applications. I'm from Chicago, IL  and in my free time I enjoy staying active, playing the piano, watching basketball, and playing video games.
-            </p>
+        <section id="about">
+        <h2 className='text-center pt-5 text-2xl text-white'>About Me</h2>
+        <div className="pt-10 flex">
+            <img src={me} alt="me" className='me' />
+            <div className='about flex flex-col'>
+            <p> My name is Andrew Harold Santos and I'm a 24 year old full-stack web developer specializing in react and javascript and certified by Northwestern University's School of Professional Studies. A full list of the tools I'm experienced with would include : </p>  
+            <ul className='unordered-list'>
+               <li>Javascript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>HTML</li>
+                <li>CSS</li>               
+                <li>jQuery</li>
+                <li>Git</li>
+                <li>Heroku</li>
+                <li>RESTful APIs</li>
+                <li>GraphQL</li>
+                <li>Progressive Web Applications</li>           
+                <li>Service Workers</li>
+                <li>JSON Web Tokens</li>
+                <li>Stripe</li>
+                </ul>            
+                <p>I'm passionate about problem solving and I love to see technology implemented in ways beneficial to humanity. I'm from Chicago, IL  and in my free time I enjoy staying active and appreciating nature, playing the piano, watching basketball, and playing video games.</p>
+                </div>
         </div>
         </section>
         <Footer />
