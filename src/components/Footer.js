@@ -1,8 +1,8 @@
 const Footer = () => {
     return (
-        <footer className="bg-black text-white pt-10">
+        <footer className="bg-black text-white">
             <p>
-                &copy; {new Date().getFullYear()} Drew Santos
+                &copy; {new Date().getFullYear()} Andrew Santos
             </p>
         </footer>
     )
