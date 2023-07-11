@@ -10,7 +10,7 @@
 This is my coding portfolio built with react.js. It is a single page application that uses react-router-dom to navigate between pages. I am constantly updating this portfolio with new projects and skills as I learn them. This application is deployed on GitHub Pages.
 
 ## Usage
-[Click here to view the deployed portfolio](https://drewsantos.github.io/react-portfolio/)
+[Click here to view the deployed portfolio](https://drewsantos3.github.io/react-portfolio/)
 
 ![Screenshot of deployed portfolio](/src/assets/images/screenshot.png)
 
