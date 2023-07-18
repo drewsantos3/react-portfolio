@@ -5,6 +5,8 @@ import Bikes from "../../assets/images/bikes4U.png";
 import Ocean from "../../assets/images/oceanBuddies.png";
 import gitHubLogo from "../../assets/images/github-mark.png";
 import linkSymbol from "../../assets/images/linkSymbol.png";
+import weatherSS from "../../assets/images/weatherSS.png";
+import ecomSS from "../../assets/images/ecomSS.png";
 
 const projects = [
   {
@@ -28,6 +30,20 @@ const projects = [
     link: "https://ocean-buddies.herokuapp.com/",
     github: "https://github.com/Oceans-4/Ocean-App.git",
   },
+  {
+    name: "Weather App",
+    desc: "A weather app that allows users to search for a city and see the current weather and 5 day forecast.",
+    img: weatherSS,
+    link: "https://drewsantos3.github.io/weather-dashboard/",
+    github: "https://github.com/drewsantos3/weather-dashboard.git",
+  },
+  {
+    name: "E-Commerce Backend",
+    desc: "A backend for an e-commerce site that uses Express.js and Sequelize to interact with a MySQL database.",
+    img: ecomSS,
+    link: "https://drive.google.com/file/d/1HKzPCt23tantXZKZMFuLsLbL7f1IuH3v/view?usp=sharing",
+    github: "https://github.com/drewsantos3/e-commerce-backend.git",
+  }
 ];
 //          <img src={Attak} alt="Attak" />
 //           <div className="project-info">
