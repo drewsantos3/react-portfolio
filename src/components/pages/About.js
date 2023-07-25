@@ -12,7 +12,7 @@ const About = () => {
         <div className="pt-10 flex">
             <img src={me} alt="me" className='me' />
             <div className='about flex flex-col'>
-            <p> My name is Andrew Harold Santos and I'm a 24 year old full-stack web developer specializing in react and javascript and certified by Northwestern University's School of Professional Studies. A full list of the tools I'm experienced with would include : </p>  
+            <p> My name is Andrew Harold Santos and I'm a 24 year old full-stack web developer specializing in react.js and certified by Northwestern University's School of Professional Studies. A full list of the tools I'm experienced with would include : </p>  
             <ul className='unordered-list'>
                <li>Javascript</li>
                 <li>React</li>
@@ -32,7 +32,7 @@ const About = () => {
                 <li>JSON Web Tokens</li>
                 <li>Stripe</li>
                 </ul>            
-                <p>I'm passionate about problem solving and I love to see technology implemented in ways beneficial to humanity. I'm from Chicago, IL  and in my free time I enjoy staying active and appreciating nature, playing the piano, watching basketball, and playing video games.</p>
+                <p>I'm passionate about ethical solutions to problems and I love to see technology implemented in ways beneficial to humanity. I'm from Chicago, IL  and in my free time I enjoy staying active and appreciating nature, playing the piano, basketball, and console gaming.</p>
                 </div>
         </div>
         </section>
