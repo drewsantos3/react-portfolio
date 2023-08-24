@@ -32,7 +32,7 @@ const About = () => {
                 <li>JSON Web Tokens</li>
                 <li>Stripe</li>
                 </ul>            
-                <p>I'm passionate about ethical solutions to problems and I love to see technology implemented in ways beneficial to humanity. I'm from Chicago, IL  and in my free time I enjoy staying active and appreciating nature, playing the piano, basketball, and console gaming.</p>
+                <p>I'm passionate about ethical solutions to problems and I love to see technology implemented in ways beneficial to humanity. I'm from Chicago, IL and some of my hobbies and interests include staying active and appreciating the outdoors, seeing ideas come to fruition, playing the piano, and basketball, football, and baseball.</p>
                 </div>
         </div>
         </section>

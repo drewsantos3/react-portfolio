@@ -51,20 +51,6 @@ const Home = () => {
                     text="With hands on experience in Javascript, React, GraphQL, etc, I have built numerous projects from the ground up."
                     typeSpeed={35}
                     />
-                    <br></br>
-                    <TypeWriterEffect
-                    textStyle={{
-                        color: 'white',
-                        backgroundColor: 'gray',
-                        background: 'rgba(0, 0, 0, 0.5)',
-                        maxWidth: '75%',
-                        margin: '10px 0',
-                    }}
-                    startDelay={13000}
-                    cursorColor='transparent'
-                    text="Click below to learn more about me, or use the navigation bar above to view my projects and contact me. Click my name at the top to return to this page."
-                    typeSpeed={20}
-                    />
                     </div>
                 <Link to="/about" className='aboutLink text-2xl'>Click here to learn more about me!</Link>
             </div>
