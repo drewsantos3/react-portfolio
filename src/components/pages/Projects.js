@@ -10,13 +10,6 @@ import ecomSS from "../../assets/images/ecomSS.png";
 
 const projects = [
   {
-    name: "Attak Tracker",
-    desc: "A full stack app that allows users to create workouts.",
-    img: Attak,
-    link: "https://attak-tracker.herokuapp.com/login",
-    github: "https://github.com/attak5/attak-tracker.git",
-  },
-  {
     name: "Bikes4U",
     desc: "A full stack app that allows users to locate nearby bike stations in their local area.",
     img: Bikes,
