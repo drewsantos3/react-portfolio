@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Orbit');
 
+body {
+  width: fit-content;
+}
+
 :root {
   --typewriterSpeed: 2.2s;
   --typewriterCharacters: 125;
@@ -37,6 +41,9 @@ html {
     white-space: nowrap;
     color: white;
     font-family: Orbitron;
+    @media screen and (max-width: 768px) {
+      font-size: 1.5rem;
+    }
 }
 
 .home {
@@ -48,6 +55,30 @@ html {
 
 .nav {
   font-family: Orbitron;
+  @media screen and (max-width: 768px) {
+    display: .mobileNav;
+  }
+  }
+
+  @media screen and (max-width: 768px) {
+  .mobileNav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Orbitron;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+  
 }
 
 .navlink:hover {
@@ -95,6 +126,9 @@ html {
   background-repeat: no-repeat;
   padding-bottom: 5rem;
   font-family: orbit;
+  @media screen and (max-width: 768px) {
+    background-attachment: fixed;
+  }
 }
 
 #projects {
@@ -183,6 +217,10 @@ html {
   height: 30rem;
   margin: 5rem;
   border-radius: 50%;
+  @media screen and (max-width: 768px) {
+    width: 15rem;
+    height: 20rem;
+  }
 }
 
 .unordered-list li {
@@ -193,6 +231,13 @@ html {
 
 li {
   padding: 10px;
+}
+
+.abtTxt {
+  @media screen and (max-width: 768px) {
+    display: inline-block;
+    padding: 20px;
+  }
 }
 
 @keyframes typewriter {
@@ -213,3 +258,4 @@ li {
     transform: translateY(0);
   }
 }
+
