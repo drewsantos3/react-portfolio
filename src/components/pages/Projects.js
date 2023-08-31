@@ -1,6 +1,5 @@
 import Header from "../Header";
 import Footer from "../Footer";
-import Attak from "../../assets/images/attakpage.png";
 import Bikes from "../../assets/images/bikes4U.png";
 import Ocean from "../../assets/images/oceanBuddies.png";
 import gitHubLogo from "../../assets/images/github-mark.png";
