@@ -1,19 +1,42 @@
 import React from "react";
+import { useState } from "react";
+import styles from "./Nav.module.css";
 import { Link } from "react-router-dom";
 
+
 function Nav() {
+
+  const [isActive, setisActive] = React.useState(false);
+
+  const toggleActiveClass = () => {
+    setisActive(!isActive);
+  };
+
+  const removeActiveClass = () => {
+    setisActive(false);
+  };
+
   return (
-    <div className="nav">
+    <div className={styles.nav}>
       <nav className="m-6 flex flex-row gap-6">
-        <Link to="/about" className="navlink px-5 text-xl text-white">
-          ABOUT ME
-        </Link>
-        <Link to="/projects" className="navlink px-5 text-xl text-white">
-          PROJECTS
-        </Link>
-        <Link to="/contact" className="navlink px-5 text-xl text-white">
-          CONTACT
-        </Link>
+        <ul className={`${styles.navMenu} ${isActive ? styles.active : ""}`}>
+        <li onClick={removeActiveClass}>
+          <Link to="/about" className={`${styles.navlink}`}>ABOUT ME</Link>
+        </li>
+        <li onClick={removeActiveClass}>
+          <Link to="/projects" className={`${styles.navlink}`}>PROJECTS</Link>
+        </li>
+        <li onClick={removeActiveClass}>
+          <Link to="/contact" className={`${styles.navlink}`}>CONTACT</Link>
+        </li>
+        </ul>
+
+        <div className={`${styles.burger} ${isActive ? styles.active : ""}`} onClick={toggleActiveClass}>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+          <span className={styles.bar}></span>
+        </div>
+      
       </nav>
     </div>
   );

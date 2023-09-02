@@ -4,12 +4,14 @@ import Nav from "./Nav";
 
 function Header({ currentPage, handlePageChange }) {
   return (
-    <div className="container bg-black p-4">
-      <div className="header-wrapper">
-      <Link to="/" className="header text-5xl">Andrew Harold Santos</Link>
+    <header className="header">
+      <div className="flex flex-row justify-between">
+        <Link to="/" className="text-4xl font-bold text-white m-6">Andrew H Santos</Link>
+        <div>
+          <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+        </div>
       </div>
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-    </div>
+    </header>
   );
 }
 

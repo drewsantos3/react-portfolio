@@ -6,10 +6,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Orbit');
 
-body {
-  width: fit-content;
-}
-
 :root {
   --typewriterSpeed: 2.2s;
   --typewriterCharacters: 125;
@@ -38,7 +34,7 @@ html {
 }
 
 .header {
-    white-space: nowrap;
+    display: flex;
     color: white;
     font-family: Orbitron;
     @media screen and (max-width: 768px) {
@@ -53,37 +49,6 @@ html {
   padding-bottom: 6rem;
 }
 
-.nav {
-  font-family: Orbitron;
-  @media screen and (max-width: 768px) {
-    display: .mobileNav;
-  }
-  }
-
-  @media screen and (max-width: 768px) {
-  .mobileNav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: Orbitron;
-    color: white;
-    font-size: 1.5rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: black;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-}
-  
-}
-
-.navlink:hover {
-  color: #16a34a;
-}
 
 .tagline {
   font-family: Orbit;

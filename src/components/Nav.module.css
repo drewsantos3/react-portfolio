@@ -1,0 +1,88 @@
+
+.navMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav {
+    padding-left: 10rem;
+   }
+
+ .navlink {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+ 
+ .navlink:hover {
+    color: #16a34a;
+  }
+
+  @media screen and (max-width: 780px){
+    
+    /* hamburger */
+    .hamburger {
+      display: block;
+      cursor: pointer;
+    }
+
+    .nav {
+      padding-left: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .bar {
+          background-color: white;
+          width: 20px;
+          height: 3px;
+          display: block;
+          margin: 5px;
+          -webkit-transition: 0.3s ease-in-out;
+          transition: 0.3s ease-in-out;
+      }
+  
+    /* adding active class to the bars  */
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+  
+  
+    /* navMenu */
+  
+    .navMenu{
+      position: absolute;
+      flex-direction: column;
+      gap: 0;
+      top: 70px;
+      left: -100%;
+      text-align: start;
+      width: 100%;
+      transition: 0.7s ease-in-out;
+      background-color: white;
+      padding: 10px;
+    }
+  
+    .navMenu.active{
+      left: 0;
+    }
+    .navMenu li {
+        margin: 16px 0;
+      }
+    }
