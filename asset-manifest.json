@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.25686cec.css",
-    "main.js": "/react-portfolio/static/js/main.3f17586c.js",
+    "main.css": "/react-portfolio/static/css/main.679b461c.css",
+    "main.js": "/react-portfolio/static/js/main.254cb33b.js",
     "static/media/oceanBuddies.png": "/react-portfolio/static/media/oceanBuddies.0312907299d1ff1c76e9.png",
     "static/media/city.jpg": "/react-portfolio/static/media/city.b4717a5fceb156f01552.jpg",
     "static/media/weatherSS.png": "/react-portfolio/static/media/weatherSS.eee2976b68f8970b4e6a.png",
     "static/media/earth.jpg": "/react-portfolio/static/media/earth.ce1bc343d487e0d73b1d.jpg",
     "static/media/me.png": "/react-portfolio/static/media/me.e36a1ab71461a825d7e5.png",
     "static/media/contactbot.jpg": "/react-portfolio/static/media/contactbot.c24761e591f616d109eb.jpg",
-    "static/media/attakpage.png": "/react-portfolio/static/media/attakpage.8e2aeec53f67fdfbfbc5.png",
     "static/media/ecomSS.png": "/react-portfolio/static/media/ecomSS.bd733fe6c8ea6ff1539f.png",
     "static/media/bikes4U.png": "/react-portfolio/static/media/bikes4U.1705263a9024c4363cec.png",
     "static/media/linkedin.png": "/react-portfolio/static/media/linkedin.669c61794ecd9df2cb22.png",
     "index.html": "/react-portfolio/index.html",
-    "main.25686cec.css.map": "/react-portfolio/static/css/main.25686cec.css.map",
-    "main.3f17586c.js.map": "/react-portfolio/static/js/main.3f17586c.js.map"
+    "main.679b461c.css.map": "/react-portfolio/static/css/main.679b461c.css.map",
+    "main.254cb33b.js.map": "/react-portfolio/static/js/main.254cb33b.js.map"
   },
   "entrypoints": [
-    "static/css/main.25686cec.css",
-    "static/js/main.3f17586c.js"
+    "static/css/main.679b461c.css",
+    "static/js/main.254cb33b.js"
   ]
 }
