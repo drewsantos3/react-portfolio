@@ -14,12 +14,10 @@ const Contact = () => {
           <div className="myinfo flex justify-center">
             <div>
               <p className="text-2xl font-bold text-right p-4">EMAIL:</p>
-              <p className="text-2xl font-bold text-right p-4">PHONE:</p>
               <p className="text-2xl font-bold text-right p-4">CITY, STATE, ZIP:</p>
             </div>
             <div>
               <p className="text-2xl text-left p-4">drewsantos3@gmail.com</p>
-              <p className="text-2xl text-left p-4">312-521-9832</p>
               <p className="text-2xl text-left p-4">Chicago, Illinois 60611</p>
             </div>
           </div>
