@@ -27,9 +27,8 @@ const Home = () => {
                      <div className = "intro text-4xl leading-relaxed">
                     <TypeWriterEffect 
                     textStyle={{
-                        color: 'white',
-                        backgroundColor: 'gray',
-                        background: 'rgba(0, 0, 0, 0.5)',
+                        color: '#16a34a',
+                        backgroundColor: 'black',
                         maxWidth: '75%',
                         margin: '10px 0',
                     }}
@@ -40,9 +39,8 @@ const Home = () => {
                     />
                     <TypeWriterEffect
                     textStyle={{
-                        color: 'white',
-                        backgroundColor: 'gray',
-                        background: 'rgba(0, 0, 0, 0.5)',
+                        color: '#16a34a',
+                        backgroundColor: 'black',
                         maxWidth: '75%',
                         margin: '10px 0',
                     }}

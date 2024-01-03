@@ -1,5 +1,5 @@
 import React from 'react';
-import me from '../../assets/images/me.png';
+import me from '../../assets/images/me2023.JPG';
 import Footer from '../Footer';
 import Header from '../Header';
 
@@ -9,10 +9,10 @@ const About = () => {
          <Header />
         <section id="about">
         <h2 className='text-center pt-5 text-2xl text-white'>About Me</h2>
-        <div className="abtTxt pt-10 flex">
+        <div className="abtTxt pt-5 flex">
             <img src={me} alt="me" className='me' />
             <div className='about flex flex-col'>
-            <p> My name is Andrew Harold Santos and I'm a 24 year old full-stack web developer specializing in react.js and certified by Northwestern University's School of Professional Studies. A full list of the tools I'm experienced with would include : </p>  
+            <p> My name is Andrew Harold Santos and I'm a 25 year old full-stack web developer specializing in react.js and certified by Northwestern University's School of Professional Studies. A full list of the tools I'm experienced with would include : </p>  
             <ul className='unordered-list'>
                <li>Javascript</li>
                 <li>React</li>
