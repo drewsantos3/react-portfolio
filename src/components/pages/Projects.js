@@ -44,32 +44,30 @@ export default function Project() {
       <Header />
       <main section id="projects">
         <h2 className='text-center pt-5 text-2xl text-white'>My Projects</h2>
-        <div className="flex flex-wrap justify-center pt-10 m-10">
-          {projects.map((project, i) => {
-            return (
-              <div key={`project_${i}`} className="flex flex-col justify-evenly project-card pulse border-double border-8 border-[#0b132b] rounded-lg w-96 h-96 m-4 bg-white p-2">
-              <h2 className="text-2xl font-bold text-center">{project.name}</h2>
-              <p className="text-center">{project.desc}</p>
-              <div className="border-double border-8 border-[#0b132b] rounded-lg">
-                <img src={project.img} alt="screenshot of application" />
-              </div>
-              <div className="flex justify-center gap-4">
+        <div className='flex flex-col justify-center items-center'>
+          {projects.map((project) => (
+            <div className='project-card flex flex-col justify-center items-center'>
+              <h3 className='text-center text-white text-xl p-5 pt-10'>{project.name}</h3>
+              <img src={project.img} alt={project.name} className='w-1/2' />
+              <div className='bg-white w-1/2'>
+              <p className='text-center text-black p-3'>{project.desc}</p>
+              <div className='flex justify-center items-center'>
                 <div className="project-links wiggle tooltip">
-                  <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    <img src={linkSymbol} alt="internet link symbol" />
-                    <span class="tooltiptext">Deployed Application</span>
-                  </a>
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  <img src={linkSymbol} alt="link" className='w-10 m-3' />
+                  <span className='tooltiptext'>Demo</span>
+                </a>
                 </div>
                 <div className="project-links wiggle tooltip">
-                  <a href={project.github} target="_blank" rel="noopener noreferrer">
-                    <img src={gitHubLogo} alt="GitHub logo" />
-                    <span className="tooltiptext">GitHub Repository</span>
-                  </a>
+                <a href={project.github} target="_blank" rel="noreferrer">
+                  <img src={gitHubLogo} alt="github" className='w-10' />
+                  <span className='tooltiptext'>GitHub Repo</span>
+                </a>
+                </div>
                 </div>
               </div>
             </div>
-            )
-          })}
+          ))}
         </div>
       </main>
       <Footer />

@@ -99,12 +99,14 @@ const Contact = () => {
     </form>
     <h2 className='text-center p-5 text-2xl'>Or find me on:</h2>
     <div className='pb-10 flex justify-center items-center'>
-            <a href="https://github.com/drewsantos3" className="text-2xl text-left p-4">
+      <div className='contact-links flex justify-center items-center bg-white'>
+            <a href="https://github.com/drewsantos3" className="project-links wiggle text-2xl text-left p-4">
               <img src={ghLogo} alt='github logo' className="h-20 w-20"></img>
             </a>
-            <a href="https://www.linkedin.com/in/drew-santos1" className="text-2xl text-right p-4">
+            <a href="https://www.linkedin.com/in/drew-santos1" className="project-links wiggle text-2xl p-4">
               <img src={liLogo} alt='linkedin logo' className="h-20 w-20"></img>
             </a>
+            </div>
             </div>
       </section>
        <Footer />
