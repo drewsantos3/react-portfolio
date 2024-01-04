@@ -97,7 +97,6 @@ html {
 }
 
 #projects {
-  background-color: black;
   padding-bottom: 5rem;
   font-family: orbit;
 }
@@ -109,41 +108,30 @@ html {
   background-repeat: no-repeat;
 }
 
+.contact-links {
+ border-radius: 5px;
+}
+
 .myinfo {
   margin-bottom: 20rem;
 }
 
-.project-links {
-  width: 3rem;
-  height: 3rem;
-  padding: 0.25rem;
+.project-card {
+  filter: blur(3px);
 }
 
 .project-card:hover {
   transform: scale(1.1);
-  transition: all ease 500ms;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
+  transition: transform 0.5s ease-in-out;
+  background: rgba(0, 0, 0, 0.7);
+  filter: blur(0px);
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  left: 35px;
-  width: 100px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  padding: 2px 0;
-  border-radius: 0.5rem;
-
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  right: -100%;
-  margin-left: -60px;
+  color: black;
+  padding: 5px 0;
+  border-radius: 6px;
 }
 
 .tooltip:hover .tooltiptext {
@@ -153,6 +141,7 @@ html {
 .wiggle.project-links:hover {
   animation: wiggle 600ms infinite;
   animation-timing-function: linear;
+  border-radius: 10;
 }
 
 @keyframes wiggle {
