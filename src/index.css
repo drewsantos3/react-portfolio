@@ -72,6 +72,13 @@ html {
   margin-bottom: 5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .tagline {
+    padding-top: 3rem;
+  }
+  
+}
+
 .intro {
   font-family: Orbit;
   color: white;
