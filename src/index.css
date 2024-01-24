@@ -20,6 +20,14 @@
 footer {
   position: absolute;
   bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Orbitron;
 }
 
 html {
@@ -47,6 +55,13 @@ html {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-bottom: 6rem;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    background-attachment: fixed;
+  }
 }
 
 
@@ -62,7 +77,15 @@ html {
   color: white;
   padding-top: 2.5rem;
   padding-left: 25%;
-  padding-bottom: 15rem;
+  padding-bottom: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    font-size: 1.5rem;
+    padding-top: 0%;
+    padding-bottom: 5rem;
+  }
 }
 
 .aboutLink {
@@ -70,6 +93,12 @@ html {
   color: white;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 768px){
+  .aboutLink {
+    font-size: 1rem;
+  }
 }
 
 .aboutLink:hover {
@@ -93,6 +122,14 @@ html {
   font-family: orbit;
   @media screen and (max-width: 768px) {
     background-attachment: fixed;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #about {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
 
@@ -166,14 +203,23 @@ html {
   margin: 5rem;
 }
 
+@media screen and (max-width: 768px) {
+  .about {
+    margin: 0;
+  }
+}
+
 .me {
   width: 30rem;
   height: 30rem;
   margin: 5rem;
   border-radius: 50%;
   @media screen and (max-width: 768px) {
-    width: 15rem;
+    margin: 0;
+    width: 20rem;
     height: 20rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
   }
 }
 
@@ -212,4 +258,3 @@ li {
     transform: translateY(0);
   }
 }
-

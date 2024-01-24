@@ -8,7 +8,7 @@ const Home = () => {
         <div>
             <Header />
             <div className='home text-white'>
-                <p className="tagline text-center text-5xl pt-5 px-10">
+                <p className="tagline text-center text-5xl pt-5">
                     Developer, Problem Solver, Tech Enthusiast
                     <br></br>
                     <TypeWriterEffect
