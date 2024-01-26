@@ -36,6 +36,7 @@ footer {
 
 html {
     scroll-behavior: smooth;
+    background-color: black;
 }
 
 .container {
@@ -53,9 +54,9 @@ html {
     z-index: 1;
     color: white;
     font-family: Orbitron;
-    font-size: 2rem;
+    font-size: 1.7rem;
     @media screen and (max-width: 768px) {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       height: 6rem;
     }
 }
@@ -101,7 +102,7 @@ html {
 
 @media screen and (max-width: 768px) {
   .tagline {
-    padding-top: 3rem;
+    padding-top: 6rem;
   }
   
 }
