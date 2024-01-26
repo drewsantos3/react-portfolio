@@ -6,12 +6,13 @@ function Header({ currentPage, handlePageChange }) {
   return (
     <header className="header">
       <div className="flex flex-row justify-between">
-        <Link to="/" className="text-4xl font-bold text-white m-6">Andrew H Santos</Link>
+        <Link to="/" className="font-bold text-white m-6">Andrew H Santos</Link>
         <div>
           <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         </div>
       </div>
     </header>
+     
   );
 }
 

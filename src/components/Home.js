@@ -13,7 +13,7 @@ const Home = () => {
                     <br></br>
                     <TypeWriterEffect
                     textStyle={{
-                        color: '#16a34a',
+                        color: '#0BDA51',
                         margin: '10px 0',
                         textAlign: 'center'
                     }}
@@ -27,8 +27,7 @@ const Home = () => {
                      <div className = "intro text-4xl leading-relaxed">
                     <TypeWriterEffect 
                     textStyle={{
-                        color: '#16a34a',
-                        backgroundColor: 'black',
+                        color: '#0BDA51',
                         maxWidth: '75%',
                         margin: '10px 0',
                     }}
@@ -39,8 +38,7 @@ const Home = () => {
                     />
                     <TypeWriterEffect
                     textStyle={{
-                        color: '#16a34a',
-                        backgroundColor: 'black',
+                        color: '#0BDA51',
                         maxWidth: '75%',
                         margin: '10px 0',
                     }}
@@ -50,7 +48,9 @@ const Home = () => {
                     typeSpeed={35}
                     />
                     </div>
-                <Link to="/about" className='aboutLink text-2xl'>Click here to learn more about me!</Link>
+                <Link to="/about" className='aboutLink text-2xl' onClick={() => {
+                    window.scrollTo(0, 0);
+                }}>Click here to learn more about me!</Link>
             </div>
             <Footer />
         </div>

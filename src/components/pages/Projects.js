@@ -43,8 +43,8 @@ export default function Project() {
     <div>
       <Header />
       <main section id="projects">
-        <h2 className='text-center pt-5 text-2xl text-white'>My Projects</h2>
-        <div className='flex flex-col justify-center items-center'>
+        <h2 className='page-header text-center pt-20 text-2xl text-white'>My Projects</h2>
+        <div className='pt-10 flex flex-col justify-center items-center'>
           {projects.map((project) => (
             <div className='project-card flex flex-col justify-center items-center'>
               <h3 className='text-center text-white text-xl p-5 pt-10'>{project.name}</h3>

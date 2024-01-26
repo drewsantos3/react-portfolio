@@ -8,7 +8,7 @@ const About = () => {
         <div>
          <Header />
         <section id="about">
-        <h2 className='text-center pt-5 text-2xl text-white'>About Me</h2>
+        <h2 className='page-header text-center pt-20 text-2xl text-white'>About Me</h2>
         <div className="abtTxt pt-5 flex">
             <img src={me} alt="me" className='me' />
             <div className='about flex flex-col'>

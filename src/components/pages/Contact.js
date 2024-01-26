@@ -69,7 +69,7 @@ const Contact = () => {
     <div>
       <Header />
       <section id="contact" className='text-white'>
-        <h2 className='text-center p-5 text-2xl'>Contact Me</h2>
+        <h2 className='page-header text-center pt-20 text-2xl'>Contact Me</h2>
         <form className='flex flex-col justify-center items-center' action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
           <div className="pt-10 mb-3">
             <input
