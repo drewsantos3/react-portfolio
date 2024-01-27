@@ -88,6 +88,7 @@ html {
 @media screen and (max-width: 768px) {
   .home {
     background-attachment: fixed;
+    height: 76rem
   }
 }
 
